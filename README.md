@@ -10,6 +10,21 @@ _Web services are often protected with a challenge that's supposed to be easy fo
 - PetImages
   - Cats: ~12500 images of cats
   - Dogs: ~12500 images of dogs
-- main.py: Python script to process and fit image data to Neural Network model. 
+- main.py: Python script to process and fit image data to Neural Network model.
+
+### Model Details
+- Deep Convolutional Neural Network
+- Layer 1:
+  - 64 Neuron layer with Rectified Linear activation function.
+  - Max Pooling function to reduce dimensions of output data.
+- Layer 2:
+  - 64 Neuron layer with Rectified Linear activation function.
+  - Max pooling function to reduce dimensions of output data.
+- Layer 3:
+  - Dense layer with Rectified Linear activation function.
+- Output Layer:
+  - 1 Neuron layer with Sigmoid activation function to output 0 or 1
+- Loss Function:
+  - Binary Corssentropy loss function (due to the binary nature of the output and it's respective value (dog or cat)
 
 _https://www.microsoft.com/en-us/download/details.aspx?id=54765_
