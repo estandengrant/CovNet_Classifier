@@ -8,6 +8,8 @@ _Web services are often protected with a challenge that's supposed to be easy fo
 
 Structure
 - PetImages
-    - Directory containing subfolders "Cats" & "Dogs", both containg ~12,500 images of cats & dogs respectively.
+  - Cats: ~12500 images of cats
+  - Dogs: ~12500 images of dogs
+- main.py: Python script to process and fit image data to Neural Network model. 
 
 _https://www.microsoft.com/en-us/download/details.aspx?id=54765_
