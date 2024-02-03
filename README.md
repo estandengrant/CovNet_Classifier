@@ -32,4 +32,4 @@ _Web services are often protected with a challenge that's supposed to be easy fo
 
 _https://www.microsoft.com/en-us/download/details.aspx?id=54765_
 
-<img align="left" src="PetImages/Cat/0.jpg"> <img align="right" src="PetImages/Dog/0.jpg">
+<img align="left" width=50 src="PetImages/Cat/0.jpg"> <img align="right" width=50 src="PetImages/Dog/0.jpg">
