@@ -31,3 +31,5 @@ _Web services are often protected with a challenge that's supposed to be easy fo
   - Binary Corssentropy loss function (due to the binary nature of the output and it's respective value (dog or cat)
 
 _https://www.microsoft.com/en-us/download/details.aspx?id=54765_
+
+<img src="PetImages/Cat/0.jpg">
