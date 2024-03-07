@@ -17,21 +17,29 @@ Data Source: _https://www.microsoft.com/en-us/download/details.aspx?id=54765_
   - Dogs: ~12500 images of dogs
 - main.py: Python script to process and fit image data to Neural Network model.
 
-### Model Details
-- Deep Convolutional Neural Network
-- Layer 1:
-  - 64 Neuron layer with Rectified Linear activation function.
-  - Max Pooling function to reduce dimensions of output data.
-- Layer 2:
-  - 64 Neuron layer with Rectified Linear activation function.
-  - Max pooling function to reduce dimensions of output data.
-- Layer 3:
-  - Dense layer with Rectified Linear activation function.
-- Output Layer:
-  - 1 Neuron layer with Sigmoid activation function to output 0 or 1
-- Loss Function:
-  - Binary Corssentropy loss function (due to the binary nature of the output and it's respective value (dog or cat)
+### Model Architecture
+Layer 1: Convolutional Layer
+- Neurons: 64
+- Activation Function: Rectified Linear Unit (ReLU) is utilized to introduce non-linearity, enhancing the model's capability to learn complex patterns.
+- Dimensionality Reduction: Applies Max Pooling to compress the spatial dimensions of the output, effectively reducing the computational complexity while preserving essential features.
 
+
+Layer 2: Convolutional Layer
+- Neurons: 64
+- Activation Function: ReLU, continuing to facilitate the learning of intricate structures within the data.
+- Dimensionality Reduction: Max Pooling is employed once again to further condense the output dimensions, streamlining feature representation.
+
+
+Layer 3: Fully Connected Layer (Dense Layer)
+- Activation Function: ReLU, ensuring the network's capacity to process and relay non-linear relationships to the output layer.
+
+Output Layer: Final Classification Layer
+- Neurons: 1, tailored for binary classification tasks.
+- Activation Function: Sigmoid, chosen for its ability to map the final neuron's output to a probability score between 0 and 1, indicative of the two classes (e.g., 'dog' or 'cat').
+
+
+Loss Function: Binary Crossentropy
+- Purpose: This loss function is selected due to the binary nature of the classification task. It quantifies the difference between the predicted probabilities and the actual binary labels (dog or cat), guiding the model towards accurate predictions through optimization.
 
 
 <img align="left" width=250 src="PetImages/Cat/0.jpg"> <img align="right" width=250 src="PetImages/Dog/0.jpg">
